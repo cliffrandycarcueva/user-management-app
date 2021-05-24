@@ -1,0 +1,16 @@
+<!-- STATUS ICON -->
+<i
+  nz-icon
+  nzType="check"
+  nzTheme="outline"
+  [ngStyle]="{ color: success }"
+  *ngIf="status"
+></i>
+
+<i
+  nz-icon
+  nzType="close"
+  nzTheme="outline"
+  [ngStyle]="{ color: error }"
+  *ngIf="!status"
+></i>
